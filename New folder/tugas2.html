@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="container">
+        <div id="judul">
+            <h1 id="TextJudul">Travel Bintang Abadi</h1>
+        </div>
+        <div id="isi">
+            <div id="biodata">
+                <table>
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td><input type="text" name="nama" id="nama"></td>
+                    </tr>
+                    <tr>
+                        <td>Tujuan</td>
+                        <td>:</td>
+                        <td><select name="tujuan" id="tujuan">
+                            <option value="Jakarta">Jakarta</option>
+                            <option value="Cirebon">Cirebon</option>
+                            <option value="Tasikmalaya">Tasikmalaya</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Jumlah Tiket</td>
+                        <td>:</td>
+                        <td><input type="number" name="jumlahtiket" id="jumlahtiket" min="1"></td>
+                    </tr>
+                    <tr>
+                        <td>Member</td>
+                        <td>:</td>
+                        <td><input type="checkbox" name="member" id="member" style="margin-top: 10px;"></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="tiket">
+                <table>
+                    <tr>
+                        <td>Harga Tiket</td>
+                        <td>:</td>
+                        <td><input type="text" name="hargatiket" id="hargatiket" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Sub Total</td>
+                        <td>:</td>
+                        <td><input type="text" name="subtotal" id="subtotal" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Diskon</td>
+                        <td>:</td>
+                        <td><input type="text" name="diskon" id="diskon" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Total Bayar</td>
+                        <td>:</td>
+                        <td><input type="text" name="total" id="total" disabled></td>
+                    </tr>
+                </table>
+            </div>   
+        </div>
+        <div id="operator">
+            <button id="hitung">Hitung</button>
+            <button id="ulang">Ulang</button>
+        </div>
+    </div>
+    <script src="../program2.js"></script>
+</body>
+</html>

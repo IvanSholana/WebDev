@@ -1,0 +1,51 @@
+#container{
+    padding: 40px;
+    font-weight: bold;
+    width: 60%;
+    margin: auto;
+}
+#main{
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 5px black;
+}
+table td{
+    padding: 5px;
+}
+#judultext{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+#hasil p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-shadow: 1px 2px rgb(207, 195, 180);
+}
+#operator button{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+#operator{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    border-top: 2px solid rgb(209, 194, 173);
+    padding-top: 20px;
+}
+
+td input{
+    border-radius: 5px;
+    border: 1px solid rgb(209, 193, 173);
+    text-align: center;
+    padding: 5px;
+}
+
+textarea{
+    border-radius: 5px;
+    border: 1px solid rgb(209, 193, 173);
+}

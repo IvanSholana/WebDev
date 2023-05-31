@@ -1,0 +1,55 @@
+#container{
+    border: 1px solid black;
+    padding: 30px;
+    margin: 10% auto;
+    width: 50%;
+    background-color: antiquewhite;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 1px 3px black;
+}
+#judul{
+    text-align: center;
+}
+#TextJudul{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-shadow: 2px 3px rgb(185, 172, 155);
+}
+table td{
+    padding: 10px;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid rgb(128, 121, 113);
+    text-align: center;
+    height: 30px;
+}
+#tujuan{
+    padding: 3px;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(128, 121, 113);
+}
+#isi{
+    display: flex;
+    justify-content: space-evenly;
+}
+#isi table input{
+    background-color: white;
+}
+
+#operator{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+#operator button{
+    background-color: black;
+    padding: 3px;
+    width: 150px;
+    border-radius: 5px;
+}

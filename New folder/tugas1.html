@@ -4,42 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    .container{
-      border: 1px solid black;
-      margin: auto;
-      padding: 20px;
-    }
-    #calculator{
-      border: 1px solid black;
-      width: 50%;
-      margin: auto;
-      padding: 20px;
-      background-color: antiquewhite;
-      border-radius: 10px;
-      box-shadow: 1px 3px black ;
-    }
-    #angka_1,#angka_2,#hasil{
-      text-align: center;
-      border-radius: 5px;
-    }
-    table td{
-      padding: 5px;
-    }
-    #operator{
-      display: flex;
-      justify-content: space-evenly;
-      margin-top: 5px;
-      padding: 10px;
-    }
-    #tambah,#kurang,#bagi,#kali{
-      background-color: black;
-      width: 50px;
-      border-radius: 5px;
-      border: 1px solid black;
-      color: white;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
@@ -68,14 +33,10 @@
         <button id="kali">x</button>
         <button id="bagi">/</button>
         <button id="kurang">-</button>
-        <button id="kurang">Reset</button>
+        <button id="reset">Reset</button>
       </div>
     </div>
   </div>
-  <script>
-    var angka_1 = document.getElementById("angka_1");
-    var angka_2 = document.getElementById("angka_2");
-    var hasil = document.getElementById("hasil");
-  </script>
+<script src="../program.js"></script>
 </body>
 </html>
